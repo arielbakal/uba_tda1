@@ -16,6 +16,12 @@ f5 :: (Eq a, Floating a) => a -> a -> b -> b
 f5 x y z | x == y = z
          | x ** y == y = z
          | otherwise = z
+         
+estanRelacionados :: (Ord a, Ord b, Num a, Num b) => a -> b -> Bool
+estanRelacionados x y | x <= 3 && y <= 3 = True
+                      | x > 7 && y > 7 = True  
+                      | (x > 3 && x <= 7) && (y > 3 && y <= 7) = True
+                      | otherwise = False 
 
 prodInt :: (Num a) => (a, a) -> (a, a) -> a
 prodInt (x1,x2) (y1,y2) = x1*y1 + x2*y2
