@@ -1,6 +1,4 @@
 # Taller de Álgebra I 2C2022
-Repo de la Materia "Taller de Álgebra I" 2C2022 dictado por el Dpto de Computación, FCEyN, UBA.
-
 
 | TP  | Enunciado                                                                 | Solución                                                                |
 |-----|-------------------------------------------------------------------------- |-------------------------------------------------------------------------|
